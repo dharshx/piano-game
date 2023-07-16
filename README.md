@@ -1,11 +1,27 @@
-# 🎹 Piano Game
+# Piano using JavaScript
 
-A fun and interactive web application that lets you play the piano online!
+A simple piano app built using JavaScript.
 
-## 🎮 Features
+## Description
 
-- Click on the piano keys to play different musical notes.
-- Enjoy a satisfying click animation when you press a key.
-- The game supports both white and black keys for a complete piano experience.
-- Simple and intuitive user interface for easy gameplay.
+This project is a web-based piano application that allows users to play different piano keys by clicking on them. Each key produces a corresponding sound when clicked.
 
+## Preview
+
+![Piano App Preview](screenshot.png)
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Usage
+
+1. Open the `index.html` file in a web browser.
+2. Click on the piano keys to play the corresponding sounds.
+3. Enjoy creating melodies and playing the piano!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
