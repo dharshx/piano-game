@@ -8,7 +8,7 @@ This project is a web-based piano application that allows users to play differen
 
 ## Preview 👀
 
-![Piano App Preview](screenshot.png)
+![Piano App Preview](screenshot.jpg)
 
 ## Technologies Used 💻
 
