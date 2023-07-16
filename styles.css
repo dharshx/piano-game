@@ -1,0 +1,145 @@
+
+
+/* body styling */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 54px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+
+/* piano styling */
+
+
+#piano {
+    height: 290px;
+    padding: 30px 30px 30px 30px;
+    background-color:#FF69B4;
+    border-radius: 10px;
+}
+
+.keys {
+    position: relative;
+
+}
+
+.white-keys {
+    display: flex;
+}
+
+.black-keys {
+    position: relative;
+    display: flex;
+}
+
+
+/* white key styling*/
+
+
+.white-key {
+    width: 68px;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    border: solid #000 2px;
+    box-sizing: border-box;
+}
+
+
+/* black key styling */
+
+
+.black-key {
+    width: 38px;
+    height: 160px;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #000;
+    z-index: 1;
+  }
+  
+  .black-key:nth-child(1) {
+    left: 54px;
+    z-index: 2;
+  }
+  
+  .black-key:nth-child(2) {
+    left: 124px;
+    z-index: 2;
+  }
+  
+  .black-key:nth-child(3) {
+    left: 260px;
+    z-index: 2;
+  }
+  
+  .black-key:nth-child(4) {
+    left: 327px;
+    z-index: 2;
+  }
+  
+  .black-key:nth-child(5) {
+    left: 396px;
+    z-index: 2;
+  }
+  
+  .black-key:nth-child(6) {
+    left: 532px;
+    z-index: 2;
+  }
+  
+  .black-key:nth-child(7) {
+    left: 601px;
+    z-index: 2;
+  }
+  
+  .black-key:nth-child(8) {
+    left: 669px;
+    z-index: 2;
+  }
+  
+  .black-key:nth-child(9) {
+    left: 804px;
+    z-index: 2;
+  }
+  
+  .black-key:nth-child(10) {
+    left: 872px;
+    z-index: 2;
+  }
+
+  /* click animation */
+
+  
+  .click-animation {
+    animation: click 0.3s;
+  }
+
+  @keyframes click {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
