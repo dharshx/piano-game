@@ -1,27 +1,27 @@
-# Piano using JavaScript
+# Piano using JavaScript 🎮
 
 A simple piano app built using JavaScript.
 
-## Description
+## Description 👩🏻‍💻
 
 This project is a web-based piano application that allows users to play different piano keys by clicking on them. Each key produces a corresponding sound when clicked.
 
-## Preview
+## Preview 👀
 
 ![Piano App Preview](screenshot.png)
 
-## Technologies Used
+## Technologies Used 💻
 
 - HTML
 - CSS
 - JavaScript
 
-## Usage
+## Usage 🤷🏻‍♀️
 
 1. Open the `index.html` file in a web browser.
 2. Click on the piano keys to play the corresponding sounds.
 3. Enjoy creating melodies and playing the piano!
 
-## License
+## License ©️
 
 This project is licensed under the [MIT License](LICENSE).
